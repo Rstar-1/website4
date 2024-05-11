@@ -22,11 +22,6 @@ const Navbar = () => {
       route: "service",
     },
     {
-      icon: "folder",
-      name: "Blogs",
-      route: "blogs",
-    },
-    {
       icon: "grid",
       name: "Gallery",
       route: "gallery",
@@ -71,7 +66,10 @@ const Navbar = () => {
                     className="fsize15 textforth flex items-center gap-8 cursor-pointer"
                   >
                     <FeatherIcon icon={e.icon} size={16} />
-                    <p className="my-0 mlpx6" onClick={() => setsidebarshow(false)}>
+                    <p
+                      className="my-0 mlpx6"
+                      onClick={() => setsidebarshow(false)}
+                    >
                       {e.name}
                     </p>
                   </NavLink>
@@ -110,6 +108,11 @@ const Navbar = () => {
                 onClick={() => setsidebarshow(true)}
               />
             </div>
+          </div>
+          <div className="flex md-hidden sm-hidden">
+            <button className="border-0 cursor-pointer font-500 textwhite rounded-5 ptpx7 pbpx7 plpx24 prpx24 fsize15 bgprimary">
+              Enquity Now
+            </button>
           </div>
         </div>
       </div>

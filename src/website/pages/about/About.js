@@ -1,14 +1,16 @@
 import React from 'react'
 import Banner from './components/Banner'
 import LeftImageSection from './components/LeftImageSection'
-import Suites from './components/Suites'
+import OurService from '../home/components/OurService'
+import Testimonial from '../home/components/Testimonial'
 
 const About = () => {
   return (
     <div>
       <Banner />
       <LeftImageSection />
-      <Suites />
+      <OurService />
+      <Testimonial />
     </div>
   )
 }

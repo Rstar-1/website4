@@ -8,7 +8,7 @@ import ReactStars from "react-stars";
 const Testimonial = () => {
   SwiperCore.use([Autoplay]);
   return (
-    <div className="ptpx60 pbpx60 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20 bg-fa">
+    <div className="ptpx60 pbpx60 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20 bg-home">
       <div className="container mx-auto">
         <div className="flex sm-block justify-between items-center w-full">
           <div className="w-50 sm-w-full">

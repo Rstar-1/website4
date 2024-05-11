@@ -25,9 +25,6 @@ const LeftImageSection1 = () => {
               founders, we design & support robust models to create category
               leaders that deliver massive value for every stakeholder.
             </p>
-            <button className="border-0 cursor-pointer font-500 textwhite rounded-5 ptpx12 pbpx12 md-ptpx8 md-pbpx8 sm-ptpx6 sm-pbpx6 md-plpx20 md-prpx20 sm-plpx16 sm-prpx16 plpx35 prpx35 mtpx20 sm-mtpx14 fsize16 sm-fsize13 bgprimary">
-              Know More
-            </button>
           </div>
         </div>
       </div>
